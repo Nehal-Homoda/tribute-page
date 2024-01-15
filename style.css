@@ -4,44 +4,66 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Helvetica Neue", Arial, sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    color: #333;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  margin: 0;
 }
 #main {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: rgb(214, 210, 210);
+  /* first value of margin is top&bottom ,second is left&right */
+  margin: 30px 8px;
+  padding: 20px;
+  background-color: #eee;
 }
 #title {
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
   line-height: 40px;
 }
-#img {
-  text-align: center;
+#img-div {
+  /* text-align: center; */
+  /* align-items: center; */
   background: white;
-  margin-left: 20px;
-  margin-right: 20px;
-  line-height: 40px;
- 
+  margin: 0;
+  padding: 10px;
+  /* line-height: 40px; */
 }
-#tribute-info {
+#image {
+  display: block;
+  max-width: 100%;
+  /* jamal */
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption {
+  font-size: 15px;
+  line-height: 60px;
   text-align: center;
-  line-height: 50px;
 }
 
-li {
+#head {
+  text-align: center;
+}
+ul {
   text-align: left;
   margin-left: 350px;
   margin-right: 350px;
+  line-height: 1.6;
+}
+
+li {
+  font-size: smaller;
+  margin: 16px 0;
+}
+
+#conc {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
   font-size: smaller;
 }
-#img-caption{
-    font-size:20px;
-}
-#conc{
-    font-style: italic;
+footer{
+  font-size: smaller;
 }
